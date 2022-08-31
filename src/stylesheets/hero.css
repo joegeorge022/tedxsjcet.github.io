@@ -8,12 +8,12 @@
     background-image: url("/src/images/background-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180vh;
+    height: 190vh;
 }
 
 .main-sect {
     position: absolute;
-    top: 30%;
+    top: 40%;
 }
 
 .main-sect h1 {
@@ -21,7 +21,7 @@
     font-weight: bold;
     letter-spacing: -5px;
     line-height: 0.9;
-    font-size: 600%;
+    font-size: 650%;
 }
 
 .main-sect h5 {
@@ -32,8 +32,9 @@
     font-size: 150%;
 }
 
+
 .main-sect .get-btn {
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #FF2B06;
     color: white;
     font-weight: bold;
@@ -41,4 +42,94 @@
     height: 60px !important;
     width: 40%;
     border-radius: 0%;
+}
+
+.main-sect .get-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.main-sect .get-btn::before {
+    content: '';
+    position: absolute;
+    width: calc(40% + 1px);
+    height: 60px;
+    top: calc(20% + 52px);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    transform:scaleX(0);
+    transform-origin: right;
+    transition: transform 0.8s ease-in-out;
+}
+
+.main-sect .get-btn:hover::before, .main-sect .get-btn:focus::before {
+    transform:scaleX(1);
+    transform-origin: left;
+}
+
+.main-sect .down-arrow {
+    display: flex;
+    padding-top: 20%;
+}
+
+.main-sect .right-arrow {
+    padding-left: 10px;
+    width: 14%;
+}
+
+.about-ted .card {
+    margin-top: 10%;
+    border-radius: 0%;
+    padding: 4% 4%;
+}
+
+.about-ted .card-title {
+    color: black;
+    font-weight: bolder;
+    font-size: 130%;
+    letter-spacing: -1px;
+    margin-bottom: 4% !important;
+}
+
+.about-ted .card-subtitle {
+    color: black;
+    font-weight: bold;
+    font-size: 330%;
+    letter-spacing: -3px;
+    line-height: 1.1;
+}
+
+.about-ted .red-text {
+    color: #FF2B06;
+}
+
+.about-ted .card-text {
+    margin-top: 6%;
+    color: #6F6F6F;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+.about-ted .card-link {
+    text-decoration: none;
+    color: #FF755D;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 120%;
+    transition: 0.8s;
+}
+
+.about-ted .right-arrow {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 7%;
+}
+
+.about-ted .card-link:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    margin-right: 8px;
 }
