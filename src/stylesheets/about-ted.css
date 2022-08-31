@@ -1,0 +1,121 @@
+.about-ted .card {
+    margin-top: 10%;
+    border-radius: 0%;
+    padding: 4% 4%;
+}
+
+.about-ted .card-title {
+    color: black;
+    font-weight: bolder;
+    font-size: 130%;
+    letter-spacing: -1px;
+    margin-bottom: 4% !important;
+}
+
+.about-ted .card-subtitle {
+    color: black;
+    font-weight: bold;
+    font-size: 330%;
+    letter-spacing: -3px;
+    line-height: 1.1;
+}
+
+.about-ted .red-text {
+    color: #FF2B06;
+}
+
+.about-ted .card-text {
+    margin-top: 6%;
+    color: #6F6F6F;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+.about-ted .card-link {
+    text-decoration: none;
+    color: #FF755D;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 120%;
+    transition: 0.8s;
+}
+
+.about-ted .right-arrow {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 7%;
+}
+
+.about-ted .card-link:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    margin-right: 8px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    .about-ted .card {
+        width: 30rem !important;
+    }
+
+    .about-ted .card-title {
+        font-size: 120%;
+    }
+
+    .about-ted .card-subtitle {
+        font-size: 250%;
+    }
+
+    .about-ted .card-text {
+        font-size: 90%;
+    }
+
+    .about-ted .card-link {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .about-ted .card {
+        width: 25rem !important;
+    }
+
+    .about-ted .card-title {
+        font-size: 100%;
+    }
+
+    .about-ted .card-subtitle {
+        font-size: 215%;
+    }
+
+    .about-ted .card-text {
+        font-size: 85%;
+    }
+
+    .about-ted .card-link {
+        font-size: 100%;
+    }
+
+    .about-ted .right-arrow {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-ted .card {
+        width: 22rem !important;
+    }
+    
+    .about-ted .card-subtitle {
+        font-size: 200%;
+    }
+
+    .about-ted .card-text {
+        font-size: 80%;
+    }
+
+    .about-ted .card-link {
+        font-size: 90%;
+    }
+}

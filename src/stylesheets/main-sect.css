@@ -1,0 +1,119 @@
+.main-sect {
+    position: absolute;
+    top: 40%;
+}
+
+.main-sect h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 0.9;
+    font-size: 650%;
+}
+
+.main-sect h5 {
+    color: white;
+    font-weight: normal;
+    padding-top: 10px;
+    letter-spacing: -2px;
+    font-size: 150%;
+}
+
+
+.main-sect .get-btn {
+    margin-top: 30px;
+    background-color: #FF2B06;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    height: 60px !important;
+    width: 40%;
+    border-radius: 0%;
+}
+
+.main-sect .get-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.main-sect .get-btn::before {
+    content: '';
+    position: absolute;
+    width: calc(40% + 1px);
+    height: 60px;
+    top: calc(20% + 52px);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    transform:scaleX(0);
+    transform-origin: right;
+    transition: transform 0.8s ease-in-out;
+}
+
+.main-sect .get-btn:hover::before, .main-sect .get-btn:focus::before {
+    transform:scaleX(1);
+    transform-origin: left;
+}
+
+.main-sect .down-arrow {
+    display: flex;
+    padding-top: 20%;
+}
+
+.main-sect .right-arrow {
+    padding-left: 10px;
+    width: 14%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .main-sect .get-btn::before {
+        top: calc(25% + 21px);
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .main-sect h1 {
+        font-size: 500%;
+    }
+
+    .main-sect h5 {
+        font-size: 140%;
+    }
+
+    .main-sect .get-btn {
+        width: 60%;
+    }
+
+    .main-sect .get-btn::before {
+        width: 60%;
+        top: calc(20% + 39px);
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .main-sect .get-btn::before {
+        top: calc(25% + 9.77px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-sect h1 {
+        font-size: 400%;
+    }
+
+    .main-sect h5 {
+        font-size: 125%;
+    }
+
+    .main-sect .get-btn {
+        width: 60%;
+    }
+
+    .main-sect .get-btn::before {
+        top: calc(20% + 25px);
+    }
+}
