@@ -5,7 +5,7 @@
 }
 
 #hero {
-    background-image: url("/src/images/background-img.png");
+    background-image: url("/src/images/background-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 180vh;
