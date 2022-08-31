@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+#hero {
+    background-image: url("/src/images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+}
+
+.main-sect {
+    position: absolute;
+    top: 30%;
+}
+
+.main-sect h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 0.9;
+    font-size: 600%;
+}
+
+.main-sect h5 {
+    color: white;
+    font-weight: normal;
+    padding-top: 10px;
+    letter-spacing: -2px;
+    font-size: 150%;
+}
+
+.main-sect .get-btn {
+    margin-top: 20px;
+    background-color: #FF2B06;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    height: 60px !important;
+    width: 40%;
+    border-radius: 0%;
+}
