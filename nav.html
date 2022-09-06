@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+      }
+
+      nav {
+        height: 100px;
+      }
+
+      .nav-container {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .nav-logo {
+        width: 130px !important;
+        position: absolute;
+        top: 30px;
+        left: 160px;
+      }
+
+      .desktop-nav ul {
+        position: absolute;
+        top: 50px;
+        right: 160px;
+        display: flex;
+        list-style: none;
+      }
+
+      .desktop-nav a {
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        padding-left: 70px;
+      }
+
+      .hamburger {
+        display: none;
+      }
+
+      @media screen and (min-width: 920px) {
+        .mobile-nav ul {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 920px) {
+        .desktop-nav ul {
+          display: none;
+        }
+
+        .mobile-nav ul {
+          list-style: none;
+          width: 100vw;
+          height: 30vh;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: -50%;
+          background-color: rgba(0, 0, 0, 0.8);
+          align-items: center;
+        }
+
+        .mobile-nav li {
+          padding-top: 50px;
+        }
+
+        .mobile-nav a {
+          font-family: "Inter", sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          text-decoration: none;
+          color: white;
+        }
+
+        .nav-logo {
+          position: absolute;
+          left: 10%;
+          right: 90%;
+        }
+
+        .hamburger {
+          width: 20px;
+          height: 15px;
+          display: block;
+          position: absolute;
+          top: 60px;
+          right: 12%;
+          left: 88%;
+        }
+
+        .line1 {
+          width: 20px;
+          height: 4px;
+          background-color: white !important;
+          border-radius: 5px;
+          transform: translateY(6px);
+          transition: transform 0.8s ease-in-out;
+        }
+
+        .line2 {
+          margin-top: 0px;
+          width: 20px;
+          height: 4px;
+          background-color: white !important;
+          border-radius: 5px;
+          transform: translateY(-6px);
+        }
+
+        .rotate1 {
+          transform: rotate(-180deg);
+        }
+
+        .rotate2 {
+          transform: rotate(180deg);
+        }
+
+        .nav-ul-mob {
+          transition: transform 0.8s;
+        }
+
+        .mobile-nav-active {
+          position: absolute !important;
+          top: 11% !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #fe7d66">
+    <div class="nav-container">
+      <nav>
+        <img
+          src="src/images/tedxsjcetwhite.png"
+          alt="tedxsjcet-logo"
+          class="nav-logo"
+        />
+        <div class="hamburger" onclick="rotate()">
+          <div class="line1" id="l1"></div>
+          <div class="line2" id="l2"></div>
+        </div>
+        <!-- Desktop Menu -->
+        <div class="desktop-nav">
+          <ul>
+            <li>
+              <a href="#">Speakers</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+            <li>
+              <a href="#">Tickets</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-nav">
+          <ul id="mob-nav-ul" class="nav-ul-mob">
+            <li>
+              <a href="#">Speakers</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+            <li>
+              <a href="#">Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function rotate() {
+        document.getElementById("l1").classList.toggle("rotate1");
+        document.getElementById("l2").classList.toggle("rotate2");
+        document
+          .getElementById("mob-nav-ul")
+          .classList.toggle("mobile-nav-active");
+      }
+    </script>
+  </body>
+</html>
