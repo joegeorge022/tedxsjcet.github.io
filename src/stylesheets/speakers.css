@@ -1,0 +1,66 @@
+.speakers {
+    background-color: black;
+    height: 150vh;
+}
+
+.speakers h1 {
+    padding-top: 150px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 1.1;
+    font-size: 500%;
+}
+
+.speakers h5 {
+    padding-top: 20px;
+    color: #BBBBBB;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 140%;
+}
+
+.speakers .card {
+    margin-top: 50px;
+    border: none;
+}
+
+.speakers .card h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+
+.speakers .card h5 {
+    padding-top: 0%;
+    color: #585858;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-size: 100%;
+}
+
+.speakers .card-body {
+    padding-top: 0%;
+    background-color: #181b1e;
+}
+
+@media screen and (max-width: 768px) {
+    .speakers h1 {
+        font-size: 400%;
+    }
+
+    .speakers h5 {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .speakers h1 {
+        font-size: 350%;
+        padding-top: 120px;
+    }
+
+    .speakers h5 {
+        font-size: 110%;
+    }
+}

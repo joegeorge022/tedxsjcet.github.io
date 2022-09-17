@@ -8,5 +8,25 @@
     background-image: url("/src/images/background-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 190vh;
+    height: 165vh;
+}
+
+@media screen and (max-width: 850px) {
+    #hero {
+        background-image: none;
+        background-color: #861b08;
+        height: 155vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hero {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #hero {
+        height: 130vh;
+    }
 }

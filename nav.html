@@ -73,13 +73,13 @@
         .mobile-nav ul {
           list-style: none;
           width: 100vw;
-          height: 30vh;
+          height: 40vh;
           display: flex;
           flex-direction: column;
-          position: absolute;
-          top: -50%;
+          padding-top: 120px;
           background-color: rgba(0, 0, 0, 0.8);
           align-items: center;
+          transition: transform 0.8s ease-in-out;
         }
 
         .mobile-nav li {
@@ -129,20 +129,19 @@
         }
 
         .rotate1 {
-          transform: rotate(-180deg);
-        }
-
-        .rotate2 {
           transform: rotate(180deg);
         }
 
-        .nav-ul-mob {
+        .rotate2 {
+          transform: rotate(-180deg);
+        }
+
+        .nav-mob {
           transition: transform 0.8s;
         }
 
         .mobile-nav-active {
-          position: absolute !important;
-          top: 11% !important;
+          transition: transform 0.8s ease-in-out;
         }
       }
     </style>
@@ -175,7 +174,7 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div class="mobile-nav">
+        <div class="mobile-nav" id="mob-nav">
           <ul id="mob-nav-ul" class="nav-ul-mob">
             <li>
               <a href="#">Speakers</a>
@@ -202,7 +201,7 @@
         document.getElementById("l1").classList.toggle("rotate1");
         document.getElementById("l2").classList.toggle("rotate2");
         document
-          .getElementById("mob-nav-ul")
+          .getElementById("mob-nav")
           .classList.toggle("mobile-nav-active");
       }
     </script>
