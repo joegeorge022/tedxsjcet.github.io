@@ -1,6 +1,6 @@
 .speakers {
     background-color: black;
-    height: 150vh;
+    height: 130vh;
 }
 
 .speakers h1 {
@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .speakers {
+        height: 130vh;
+    }
+
     .speakers h1 {
         font-size: 400%;
     }
@@ -55,6 +59,10 @@
 }
 
 @media screen and (max-width: 578px) {
+    .speakers {
+        height: 100vh;
+    }
+
     .speakers h1 {
         font-size: 350%;
         padding-top: 120px;
