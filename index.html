@@ -34,35 +34,48 @@
   <body>
     <section id="hero">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
+      <div class="nav-container">
+        <nav>
           <img
             src="src/images/tedxsjcetwhite.png"
             alt="tedxsjcet-logo"
-            id="navlogo"
+            class="nav-logo"
           />
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Speakers</a
-              >
-              <a class="nav-link" href="#">Gallery</a>
-              <a class="nav-link" href="#">Tickets</a>
-            </div>
+          <div class="hamburger" onclick="rotate()">
+            <div class="line1" id="l1"></div>
+            <div class="line2" id="l2"></div>
           </div>
-        </div>
-      </nav>
+          <!-- Desktop Menu -->
+          <div class="desktop-nav">
+            <ul>
+              <li>
+                <a href="#">Speakers</a>
+              </li>
+              <li>
+                <a href="#">Gallery</a>
+              </li>
+              <li>
+                <a href="#">Tickets</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mobile Menu -->
+          <div class="mobile-nav" id="mob-nav">
+            <ul id="mob-nav-ul" class="nav-ul-mob d-none">
+              <li>
+                <a href="#">Speakers</a>
+              </li>
+              <li>
+                <a href="#">Gallery</a>
+              </li>
+              <li>
+                <a href="#">Tickets</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <div class="container">
         <!-- Text Section -->
         <div class="main-sect">
@@ -130,5 +143,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="src/scripts/nav.js"></script>
   </body>
 </html>

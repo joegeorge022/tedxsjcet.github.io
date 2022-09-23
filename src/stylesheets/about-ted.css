@@ -54,8 +54,15 @@
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 846px) {
+    .about-ted .card {
+        padding-top: 50px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .about-ted .card {
+        padding-top: 70px;
         width: 30rem !important;
     }
 

@@ -1,16 +1,126 @@
-.navbar {
-    padding-top: 3%;
-}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
 
-.nav-link {
+  nav {
+    height: 100px;
+  }
+
+  .nav-container {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .nav-logo {
+    width: 130px !important;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+  }
+
+  .desktop-nav ul {
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    display: flex;
+    list-style: none;
+  }
+
+  .desktop-nav a {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
     color: white;
-    font-weight: 700;
-    font-size: 140%;
-    letter-spacing: -1px;
-    margin-top: 10%;
-    margin-right: 8%;
-}
+    padding-left: 70px;
+  }
 
-.navbar-nav {
-    margin-left: 70%;
-}
+  .hamburger {
+    display: none;
+  }
+
+  @media screen and (min-width: 920px) {
+    .mobile-nav ul {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .desktop-nav ul {
+      display: none;
+    }
+
+    .mobile-nav ul {
+      list-style: none;
+      width: 100vw;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      padding-top: 120px;
+      background-color: rgba(0, 0, 0, 0.8);
+      align-items: center;
+      /* transition: transform 0.8s ease-in-out; */
+    }
+
+    .mobile-nav li {
+      padding-top: 50px;
+    }
+
+    .mobile-nav a {
+      font-family: "Inter", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      text-decoration: none;
+      color: white;
+    }
+
+    .nav-logo {
+      position: absolute;
+      left: 10%;
+      right: 90%;
+    }
+
+    .hamburger {
+      width: 20px;
+      height: 15px;
+      display: block;
+      position: absolute;
+      top: 60px;
+      right: 12%;
+      left: 88%;
+    }
+
+    .line1 {
+      width: 20px;
+      height: 4px;
+      background-color: white !important;
+      border-radius: 5px;
+      transform: translateY(6px);
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .line2 {
+      margin-top: 0px;
+      width: 20px;
+      height: 4px;
+      background-color: white !important;
+      border-radius: 5px;
+      transform: translateY(-6px);
+    }
+
+    .rotate1 {
+      transform: rotate(180deg);
+    }
+
+    .rotate2 {
+      transform: rotate(-180deg);
+    }
+
+    .nav-mob {
+      transition: transform 0.8s;
+    }
+
+    .mobile-nav-active {
+      transition: transform 0.8s ease-in-out;
+    }
+  }
