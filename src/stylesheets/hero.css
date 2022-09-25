@@ -14,7 +14,11 @@
 @media screen and (max-width: 850px) {
     #hero {
         background-image: none;
-        background-color: #861b08;
+        background: rgb(134,27,8);
+        background: -moz-linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
+        background: linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#861b08",endColorstr="#fb5e5e",GradientType=1); 
         height: 143vh;
     }
 }
