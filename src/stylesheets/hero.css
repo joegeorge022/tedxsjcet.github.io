@@ -8,9 +8,8 @@
     background-image: url("/src/images/background-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 165vh;
+    height: 200vh;
 }
-
 @media screen and (max-width: 850px) {
     #hero {
         background-image: none;
@@ -18,19 +17,11 @@
         background: -moz-linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
         background: -webkit-linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
         background: linear-gradient(180deg, rgba(134,27,8,1) 0%, rgba(251,94,94,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#861b08",endColorstr="#fb5e5e",GradientType=1); 
-        height: 143vh;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#861b08",endColorstr="#fb5e5e",GradientType=1);
     }
 }
-
-/* @media screen and (max-width: 767px) {
-    #hero {
-        height: 140vh;
+@media screen and (max-width: 500px) {
+    #hero { 
+        height: 150vh;
     }
 }
-
-@media screen and (max-width: 515px) {
-    #hero {
-        height: 130vh;
-    }
-} */
