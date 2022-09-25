@@ -44,6 +44,13 @@
     background-color: #181b1e;
 }
 
+@media screen and (max-width: 850px) {
+    .speakers h1 {
+        font-size: 350%;
+        padding-top: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .speakers {
         height: 130vh;
@@ -65,7 +72,6 @@
 
     .speakers h1 {
         font-size: 350%;
-        padding-top: 120px;
     }
 
     .speakers h5 {

@@ -15,11 +15,11 @@
     #hero {
         background-image: none;
         background-color: #861b08;
-        height: 155vh;
+        height: 143vh;
     }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     #hero {
         height: 140vh;
     }
@@ -29,4 +29,4 @@
     #hero {
         height: 130vh;
     }
-}
+} */
