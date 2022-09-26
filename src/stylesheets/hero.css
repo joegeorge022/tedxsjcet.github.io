@@ -20,8 +20,15 @@
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#861b08",endColorstr="#fb5e5e",GradientType=1);
     }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 850px) {
     #hero { 
         height: 150vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #hero { 
+        height: 180vh;
     }
 }

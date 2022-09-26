@@ -4,5 +4,6 @@ function rotate() {
     // document
     //     .getElementById("mob-nav")
     //     .classList.toggle("mobile-nav-active");
-    document.getElementById("mob-nav-ul").classList.toggle("d-none")
+    document.getElementById("mob-nav-ul").classList.toggle("nav-ul-mob-toggle")
+    document.getElementById("main-sect-h1").classList.toggle("padding-nav")
 }

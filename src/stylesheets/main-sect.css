@@ -4,11 +4,16 @@
 }
 
 .main-sect h1 {
+    transition: 0.8s;
     color: white;
     font-weight: bold;
     letter-spacing: -5px;
     line-height: 0.9;
     font-size: 650%;
+}
+
+.padding-nav {
+    padding-top: 150px;
 }
 
 .main-sect h5 {
