@@ -13,23 +13,23 @@
 @media screen and (max-width: 850px) {
   #hero {
     background-image: none;
-    background: rgb(134, 27, 8);
+    background: rgb(59, 38, 38);
     background: -moz-linear-gradient(
-      180deg,
-      rgba(134, 27, 8, 1) 0%,
-      rgba(251, 94, 94, 1) 100%
+      45deg,
+      rgba(59, 38, 38, 1) 0%,
+      rgba(187, 45, 45, 1) 100%
     );
     background: -webkit-linear-gradient(
-      180deg,
-      rgba(134, 27, 8, 1) 0%,
-      rgba(251, 94, 94, 1) 100%
+      45deg,
+      rgba(59, 38, 38, 1) 0%,
+      rgba(187, 45, 45, 1) 100%
     );
     background: linear-gradient(
-      180deg,
-      rgba(134, 27, 8, 1) 0%,
-      rgba(251, 94, 94, 1) 100%
+      45deg,
+      rgba(59, 38, 38, 1) 0%,
+      rgba(187, 45, 45, 1) 100%
     );
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#861b08",endColorstr="#fb5e5e",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b2626",endColorstr="#bb2d2d",GradientType=1);
   }
 }
 
