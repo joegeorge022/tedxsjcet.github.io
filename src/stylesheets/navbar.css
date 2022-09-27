@@ -5,7 +5,7 @@
   }
 
   nav {
-    height: 100px;
+    height: 65px;
   }
 
   .nav-container {
@@ -13,15 +13,15 @@
   }
 
   .nav-logo {
-    width: 130px !important;
+    width: 90px !important;
     position: absolute;
-    top: 30px;
-    left: 160px;
+    top: 15px;
+    left: 30px;
   }
 
   .desktop-nav ul {
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 160px;
     display: flex;
     list-style: none;
@@ -29,15 +29,19 @@
 
   .desktop-nav a {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     color: white;
-    padding-left: 70px;
+    padding-left: 100px;
   }
 
   .hamburger {
     display: none;
+  }
+
+  .desktop-nav a:hover {
+    color: red;
   }
 
   @media screen and (min-width: 920px) {
