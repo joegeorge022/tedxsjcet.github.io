@@ -49,46 +49,46 @@
     .desktop-nav ul {
       display: none;
     }
+    
 
-    .mobile-nav ul {
+    .nav-ul-mob {
       transition: 0.9s;
+      position: absolute;
+      left: -100%;
       list-style: none;
       width: 100vw;
       height: 40vh;
+      padding-top: 30%;
+      padding-left: 0%;
       display: flex;
       flex-direction: column;
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0);
       align-items: center;
     }
 
-    .mobile-nav ul {
-      padding: 0%;
-    }
-
-    .nav-ul-mob {
-      margin-top: 10%;
-      position: absolute;
-      top: -100%;
-    }
-
+    
     .nav-ul-mob-toggle {
-      position: absolute;
-      top: 0%;
+      left: 0%;
     }
 
-    .mobile-nav li {
-      padding-top: 50px;
+    .nav-ul-mob li {
+      margin-bottom: 10%;
     }
-
+    
     .mobile-nav a {
       font-family: "Inter", sans-serif;
       font-size: 20px;
-      font-weight: 500;
+      font-weight: 600;
       text-decoration: none;
       color: white;
     }
 
+    .mobile-nav a:hover {
+      color: red;
+    }
+
     .nav-logo {
+      z-index: 2;
       position: absolute;
       left: 10%;
       right: 90%;
@@ -102,6 +102,7 @@
       top: 60px;
       right: 12%;
       left: 88%;
+      z-index: 2;
     }
 
     .line1 {
@@ -110,7 +111,6 @@
       background-color: white !important;
       border-radius: 5px;
       transform: translateY(6px);
-      transition: transform 0.8s ease-in-out;
     }
 
     .line2 {
@@ -121,32 +121,18 @@
       border-radius: 5px;
       transform: translateY(-6px);
     }
-
-    .rotate1 {
-      transform: rotate(180deg);
-    }
-
-    .rotate2 {
-      transform: rotate(-180deg);
-    }
-
-    .nav-mob {
-      transition: transform 0.8s;
-    }
-
-    .mobile-nav-active {
-      transition: transform 0.8s ease-in-out;
-    }
   }
 
-  @media screen and (max-width: 580px) {
+  @media screen and (min-width: 600px){
     .nav-ul-mob {
-      margin-top: 15%;
+      padding-top: 20%;
     }
-  }
+    
+    .nav-ul-mob li {
+      margin-bottom: 5%;
+    }
 
-  @media screen and (max-width: 425px) {
-    .nav-ul-mob {
-      margin-top: 20%;
+    .mobile-nav a {
+      font-size: 30px;
     }
   }
