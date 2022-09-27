@@ -4,7 +4,7 @@
 }
 
 .main-sect h1 {
-  transition: 0.8s;
+  transition: 0.9s;
   color: white;
   font-weight: bold;
   letter-spacing: -5px;
@@ -33,6 +33,7 @@
   height: 60px !important;
   width: 40%;
   border-radius: 0%;
+  transition: 0.9s;
 }
 
 .main-sect .get-btn span {
@@ -40,7 +41,7 @@
   z-index: 1;
 }
 
-.main-sect .get-btn::before {
+/* .main-sect .get-btn::before {
   content: "";
   position: absolute;
   width: calc(40% + 1px);
@@ -54,13 +55,13 @@
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.8s ease-in-out;
-}
+} */
 
-.main-sect .get-btn:hover::before,
+/* .main-sect .get-btn:hover::before,
 .main-sect .get-btn:focus::before {
   transform: scaleX(1);
   transform-origin: left;
-}
+} */
 
 .main-sect .down-arrow {
   display: flex;
@@ -80,11 +81,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .main-sect .get-btn::before {
     top: calc(25% + 13px);
   }
-}
+} */
 
 @media screen and (max-width: 578px) {
   .main-sect h1 {
@@ -99,17 +100,17 @@
     width: 60%;
   }
 
-  .main-sect .get-btn::before {
+  /* .main-sect .get-btn::before {
     width: 60%;
     top: calc(20% + 33px);
-  }
+  } */
 }
 
-@media screen and (max-width: 511px) {
+/* @media screen and (max-width: 511px) {
   .main-sect .get-btn::before {
     top: calc(25% + 1px);
   }
-}
+} */
 
 @media screen and (max-width: 425px) {
   .main-sect h1 {
@@ -124,7 +125,11 @@
     width: 60%;
   }
 
-  .main-sect .get-btn::before {
+  /* .main-sect .get-btn::before {
     top: calc(20% + 14px);
-  }
+  } */
+}
+
+.get-btn:hover {
+  background-color: black;
 }

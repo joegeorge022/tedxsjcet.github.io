@@ -30,10 +30,11 @@ nav {
 .desktop-nav a {
   font-family: "Inter", sans-serif;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   color: white;
   padding-left: 100px;
+  transition: 0.9s;
 }
 
 .hamburger {
@@ -83,6 +84,8 @@ nav {
     font-weight: 600;
     text-decoration: none;
     color: white;
+    letter-spacing: -1px;
+    transition: 0.9s;
   }
 
   .mobile-nav a:hover {
