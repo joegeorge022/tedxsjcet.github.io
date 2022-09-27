@@ -65,7 +65,6 @@
       background-color: rgba(0, 0, 0);
       align-items: center;
     }
-
     
     .nav-ul-mob-toggle {
       left: 0%;
@@ -94,7 +93,7 @@
     .nav-logo {
       z-index: 2;
       position: absolute;
-      left: 10%;
+      left: 5%;
       right: 90%;
       top: 2%;
       width: 90px !important;
@@ -105,7 +104,7 @@
       height: 15px;
       display: block;
       position: absolute;
-      top: 4%;
+      top: 3%;
       right: 12%;
       left: 88%;
       z-index: 2;
