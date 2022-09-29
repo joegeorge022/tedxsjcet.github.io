@@ -58,7 +58,7 @@ nav {
   .nav-ul-mob {
     transition: 0.9s;
     position: absolute;
-    left: -100%;
+    top: -100%;
     list-style: none;
     width: 100vw;
     height: 40vh;
@@ -71,7 +71,7 @@ nav {
   }
 
   .nav-ul-mob-toggle {
-    left: 0%;
+    top: 0%;
   }
 
   .nav-ul-mob li {
