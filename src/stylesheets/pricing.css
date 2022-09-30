@@ -1,0 +1,83 @@
+section.pricing {
+    background: #000;
+    
+  }
+  
+  .pricing .card {
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+
+  
+  .pricing .btn {
+    font-size: 80%;
+   background-color: red;
+   border: none;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card .btn:hover {
+      background-color: rgb(192, 0, 0);
+      transform: translateY(-5px);
+    }
+  }
+  
+
+  .pricing h1 {
+     padding-top: 150px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -5px;
+  line-height: 1.1;
+  font-size: 500%;
+  }
+
+  .pricing h5 {
+    padding-top: 20px;
+    color: #bbbbbb;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 140%;
+  }
+ 
