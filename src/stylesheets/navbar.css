@@ -8,8 +8,22 @@ nav {
   height: 65px;
 }
 
+
+.hero {
+  background: radial-gradient(circle at 0% 0%, rgb(128, 0, 0) 10,#11030300 100%);
+
+}
 .nav-container {
-  background-color: rgba(0, 0, 0);
+/* 
+  /* background: rgba( 0, 0, 0, 0.25 ); */
+/* 
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 65px );  */
+
+
+
+/* background-color: black; */
+
 }
 
 .nav-logo {
