@@ -10,10 +10,11 @@
   letter-spacing: -5px;
   line-height: 0.9;
   font-size: 650%;
+  z-index: 1;
 }
 
 .padding-nav {
-  padding-top: 180px;
+  padding-top: px;
 }
 
 .main-sect h5 {
