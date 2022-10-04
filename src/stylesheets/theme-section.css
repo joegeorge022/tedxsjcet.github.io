@@ -1,0 +1,69 @@
+.theme {
+  background-color: black;
+  height: auto !important;
+}
+
+.theme .row {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.theme h1 {
+  transition: 0.9s;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -5px;
+  line-height: 0.9;
+  font-size: 500%;
+  margin-left: 0%;
+}
+
+.theme h6 {
+  color: red;
+  text-align: justify;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 0%;
+}
+
+.theme h5 {
+  color: #bbbbbb;
+  letter-spacing: -1px;
+  text-align: justify;
+  font-size: 140%;
+  margin-left: 0%;
+}
+
+@media screen and (max-width: 991px) {
+  .theme h1 {
+    padding-bottom: 5%;
+    font-size: 350%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .theme .row {
+    padding-bottom: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .theme h5 {
+    font-size: 120%;
+  }
+
+  .theme h1 {
+    font-size: 400%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .theme h5 {
+    font-size: 100%;
+  }
+  .theme h1 {
+    font-size: 300%;
+    letter-spacing: -4px;
+  }
+  .theme h6 {
+    font-size: 15px;
+  }
+}

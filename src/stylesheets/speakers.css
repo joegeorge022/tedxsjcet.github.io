@@ -1,11 +1,10 @@
 .speakers {
   background-color: black;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
   height: fit-content;
 }
 
 .speakers h1 {
-  padding-top: 150px;
   color: white;
   font-weight: bold;
   letter-spacing: -5px;
@@ -19,6 +18,15 @@
   font-weight: normal;
   letter-spacing: -1px;
   font-size: 140%;
+}
+
+.speakers h6 {
+  padding-top: 150px;
+  color: red;
+  text-align: justify;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 0%;
 }
 
 .speakers .card {
@@ -48,6 +56,9 @@
 @media screen and (max-width: 850px) {
   .speakers h1 {
     font-size: 350%;
+  }
+
+  .speakers h6 {
     padding-top: 20px;
   }
 }
@@ -80,17 +91,22 @@
   }
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 600px) {
   /* .speakers {
     height: 100vh;
   } */
 
   .speakers h1 {
-    font-size: 350%;
+    font-size: 300%;
+    letter-spacing: -4px;
+  }
+
+  .speakers h6 {
+    font-size: 15px;
   }
 
   .speakers h5 {
-    font-size: 110%;
+    font-size: 100%;
   }
 }
 
