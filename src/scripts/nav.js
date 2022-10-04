@@ -5,6 +5,6 @@ function rotate() {
         .getElementById("mob-nav")
         .classList.toggle("mobile-nav-active");
     document.getElementById("mob-nav-ul").classList.toggle("nav-ul-mob-toggle")
-    document.getElementById("main-sect-h1").classList.toggle("padding-nav")
-    document.getElementById("hero").classList.toggle("hero-nav")
+    // document.getElementById("main-sect-h1").classList.toggle("padding-nav")
+    // document.getElementById("hero").classList.toggle("hero-nav")
 }
