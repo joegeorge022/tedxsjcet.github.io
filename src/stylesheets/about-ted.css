@@ -114,6 +114,10 @@
     width: 22rem !important;
   }
 
+  .about-ted {
+    margin-left: -13px;
+  }
+
   .about-ted .card-subtitle {
     font-size: 200%;
   }
