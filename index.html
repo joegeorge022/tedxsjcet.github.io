@@ -61,13 +61,13 @@
           <div class="desktop-nav">
             <ul>
               <li>
-                <a href="#">Speakers</a>
+                <a href="#speakers">Speakers</a>
               </li>
               <li>
                 <a href="#">Gallery</a>
               </li>
               <li>
-                <a href="#">Tickets</a>
+                <a href="#pricing">Tickets</a>
               </li>
             </ul>
           </div>
@@ -76,13 +76,13 @@
           <div class="mobile-nav" id="mob-nav">
             <ul id="mob-nav-ul" class="nav-ul-mob">
               <li>
-                <a href="#">Speakers</a>
+                <a href="#speakers">Speakers</a>
               </li>
               <li>
                 <a href="#">Gallery</a>
               </li>
               <li>
-                <a href="#">Tickets</a>
+                <a href="#pricing">Tickets</a>
               </li>
             </ul>
           </div>
@@ -93,7 +93,10 @@
         <div class="main-sect">
           <h1 id="main-sect-h1">Discover.<br />Rediscover.</h1>
           <h5>October 29th, 2022 | SJCET Palai</h5>
-          <button class="btn btn-lg get-btn">
+          <button
+            class="btn btn-lg get-btn"
+            onclick="window.location.href='#pricing'"
+          >
             <span>Get Tickets</span
             ><span
               ><img src="/src/images/Arrow 2-white.png" class="right-arrow"
@@ -120,9 +123,13 @@
                   Lorem ipsum may be used as a placeholder before final copy is
                   available.
                 </p>
-                <a class="card-link">More about TED</a
+                <a class="card-link" href="https://www.ted.com/" target="_blank"
+                  >More about TED</a
                 ><img class="right-arrow" src="src/images/Arrow 2.png" alt="" />
-                <a class="card-link"
+                <a
+                  class="card-link"
+                  href="https://www.ted.com/about/programs-initiatives/tedx-program"
+                  target="_blank"
                   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More about TEDx</a
                 ><img class="right-arrow" src="src/images/Arrow 2.png" alt="" />
               </div>
@@ -132,7 +139,7 @@
       </div>
     </section>
     <!-- <section class="spacer" style="background: #000; height: 200px;"></section> -->
-    <section class="speakers">
+    <section class="speakers" id="speakers">
       <div class="container">
         <h1>The stellar lineup</h1>
         <h5>
@@ -432,7 +439,7 @@
 
     <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
-    <section class="pricing py-5">
+    <section class="pricing py-5" id="pricing">
       <h1 class="text-center my-2">Find your groove.</h1>
       <h5 class="text-center mb-5">One price. Limitless insights.</h5>
       <div class="container">
