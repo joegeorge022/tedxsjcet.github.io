@@ -4,6 +4,11 @@
   height: fit-content;
 }
 
+.speakers .row {
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
 .speakers h1 {
   color: white;
   font-weight: bold;
@@ -147,6 +152,12 @@
 
 .social-icons {
   transition: 0.9s;
+}
+
+.icn:hover,
+.icn-1:hover,
+.icn-2:hover {
+  cursor: pointer;
 }
 
 .social-icons div {

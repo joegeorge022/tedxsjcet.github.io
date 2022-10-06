@@ -54,15 +54,21 @@
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 920px) {
+  .about-ted {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
 @media screen and (max-width: 846px) {
   .about-ted .card {
-    padding-top: 50px;
+    padding-top: 10px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .about-ted .card {
-    padding-top: 70px;
     width: 30rem !important;
   }
 
@@ -112,10 +118,6 @@
 @media screen and (max-width: 425px) {
   .about-ted .card {
     width: 22rem !important;
-  }
-
-  .about-ted {
-    margin-left: -13px;
   }
 
   .about-ted .card-subtitle {

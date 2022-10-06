@@ -8,24 +8,12 @@
   background-image: url("/src/images/background-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 180vh;
+  height: 200vh;
 }
 
 @media screen and (max-width: 2560px) and (min-width: 1920px) {
   #hero {
-    height: 120vh;
-  }
-}
-
-@media screen and (max-width: 1920px) and (min-width: 1200px) {
-  #hero {
-    height: 180vh;
-  }
-}
-
-@media screen and (width: 1024px) and (height: 1366px) {
-  #hero {
-    height: 120vh;
+    height: 150vh;
   }
 }
 
@@ -50,9 +38,6 @@
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b2626",endColorstr="#bb2d2d",GradientType=1);
   }
-  .hero-nav {
-    height: 170vh !important;
-  }
 }
 
 @media screen and (max-width: 850px) {
@@ -63,15 +48,12 @@
 
 @media screen and (max-width: 480px) {
   #hero {
-    height: 140vh;
+    height: 150vh;
   }
 }
 
 @media screen and (max-width: 380px) {
   #hero {
     height: 180vh;
-  }
-  .hero-nav {
-    height: 200vh !important;
   }
 }
