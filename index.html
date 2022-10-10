@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="src/stylesheets/pricing.css" />
     <link rel="stylesheet" href="src/stylesheets/theme.css" />
     <link rel="stylesheet" href="src/stylesheets/footer.css" />
+    <link rel="stylesheet" href="src/stylesheets/responsive.css" />
     <title>TEDxSJCET</title>
   </head>
 
@@ -173,7 +174,7 @@
     <section class="speakers" id="speakers">
       <div class="container">
         <h6 class="mb-3">SPEAKERS</h6>
-        <h1>The stellar lineup</h1>
+        <h1 id="speaker-head">The stellar lineup</h1>
         <h5>
           We present to you some of the most flamboyant and remarkable
           individuals who epitomize passion and perseverance to inspire, uplift
@@ -430,13 +431,13 @@
           unfinished thoughts and take the steps necessary to achieve a
           successful outcome.
         </p>
-        <a id="play-video" class="video-play-button" href="#">
+        <a id="play-video" class="video-play-button" href="https://youtube.com">
           <span></span>
         </a>
-
-        <div id="video-overlay" class="video-overlay">
+        <div id="video-overlay" class="video-overlay"></div>
+        <!-- <div id="video-overlay" class="video-overlay">
           <a class="video-overlay-close">&times;</a>
-        </div>
+        </div> -->
       </div>
       <div class="wrapper">
         <video autoplay loop muted class="wrapper__video">
