@@ -76,3 +76,13 @@ section.pricing {
   letter-spacing: -1px;
   font-size: 140%;
 }
+
+@media screen and (max-width: 600px) {
+  .pricing h1 {
+    font-size: 250%;
+    letter-spacing: -2px;
+  }
+  .pricing h5 {
+    font-size: 130%;
+  }
+}

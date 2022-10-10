@@ -165,3 +165,13 @@ body {
   /* height: auto; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 600px) {
+  .theme2 h1 {
+    font-size: 250%;
+    letter-spacing: -2px;
+  }
+  .theme2 p {
+    font-size: 90%;
+  }
+}
