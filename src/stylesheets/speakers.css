@@ -189,6 +189,13 @@
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 600px) {
+  .speakers h1 {
+    font-size: 220%;
+    letter-spacing: -2px;
+  }
+}
+
 /* ----------------------------------------------------------------- */
 
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");

@@ -67,3 +67,10 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .theme h1 {
+    font-size: 220%;
+    letter-spacing: -2px;
+  }
+}
