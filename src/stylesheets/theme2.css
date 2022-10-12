@@ -168,10 +168,10 @@ body {
 
 @media screen and (max-width: 600px) {
   .theme2 h1 {
-    font-size: 250%;
+    font-size: 265%;
     letter-spacing: -2px;
   }
   .theme2 p {
-    font-size: 90%;
+    font-size: 110%;
   }
 }
