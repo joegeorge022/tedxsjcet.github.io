@@ -4,6 +4,33 @@
   font-family: "Inter", sans-serif;
 }
 
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.main-sect h1,
+.main-sect h5 {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+.main-sect .get-btn {
+  animation: 1s ease-out 0s 1 slideInBottom;
+}
+
 #hero {
   background-image: url("/src/images/background-img.jpg");
   background-repeat: no-repeat;
