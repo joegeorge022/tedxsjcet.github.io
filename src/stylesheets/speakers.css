@@ -55,6 +55,8 @@
 }
 
 .speakers .card-body {
+  width: 20em;
+  /* height: 50%; */
   padding-top: 0%;
   background-color: #181b1e;
 }
