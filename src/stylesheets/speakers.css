@@ -121,6 +121,11 @@
   margin: 0%;
 }
 
+/* .card-img-top :hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+} */
+
 /* @media screen and (max-width: 380px) {
   .speakers {
     height: 130vh;
@@ -155,11 +160,11 @@
   transition: 0.9s;
 }
 
-.icn:hover,
+/* .icn:hover,
 .icn-1:hover,
 .icn-2:hover {
   cursor: pointer;
-}
+} */
 
 .social-icons div {
   background-color: white;
