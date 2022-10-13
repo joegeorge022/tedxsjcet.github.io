@@ -1,6 +1,16 @@
+.red-text {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: #ff4646 !important;
+  letter-spacing: 3px !important;
+  
+}
+
 .about-ted {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 30px;
 }
 
 .about-ted .card {

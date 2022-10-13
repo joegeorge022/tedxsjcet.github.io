@@ -27,7 +27,7 @@
 }
 
 .theme2 h1 {
-  padding-top: 150px;
+  padding-top: 100px;
   color: white;
   font-weight: bold;
   letter-spacing: -5px;
@@ -42,7 +42,7 @@ body {
 .video-play-button {
   position: absolute;
   z-index: 10;
-  top: 75%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;

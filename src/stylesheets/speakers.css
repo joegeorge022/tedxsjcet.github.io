@@ -4,6 +4,8 @@
   height: fit-content;
 }
 
+
+
 .speakers .row {
   margin-left: 0%;
   padding-left: 0%;
@@ -34,6 +36,8 @@
   font-size: 20px;
   margin-left: 0%;
 }
+
+
 
 .speakers .card {
   margin-top: 50px;
@@ -71,9 +75,9 @@
     font-size: 350%;
   }
 
-  .speakers h6 {
+  /* .speakers h6 {
     padding-top: 20px;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -412,4 +416,12 @@
 
 .card {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1120px) 
+{
+  .speakers, .speaker-sect {
+    padding-top: 350px !important;
+  }  
+  
 }

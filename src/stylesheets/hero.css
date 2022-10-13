@@ -4,6 +4,34 @@
   font-family: "Inter", sans-serif;
 }
 
+
+.ted-link {
+  color: black;
+  text-transform: uppercase; 
+  color: red;
+   font-weight: bold;
+    text-decoration: none;
+
+  transition: all 0.2s;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ted-link:hover {
+  color: black;
+}
+
+.white-card {
+  position: absolute;
+  top: 125vh;
+  background: rgb(255, 255, 255);
+  /* transform: translateY(-100px); */
+  padding: 10px;
+  margin-right: 15px ;
+}
+
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
@@ -82,5 +110,18 @@
 @media screen and (max-width: 380px) {
   #hero {
     height: 180vh;
+  }
+}
+
+.speakers .st-subtext
+{
+
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 700px) {
+  .speakers .st-subtext {
+  max-width: 70%;
+
+
   }
 }

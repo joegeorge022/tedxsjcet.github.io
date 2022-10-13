@@ -196,3 +196,9 @@
 * {
   text-align: left;
 }
+
+
+ h5 {
+  color: rgb(220, 220, 220) !important;
+  text-align: left !important;
+}
