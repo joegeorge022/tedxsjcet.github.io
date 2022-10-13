@@ -170,3 +170,29 @@
     text-decoration: none;
 
 }
+.contact-icon {
+  height: 50px;
+  width: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-cta {
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.single-cta:hover {
+  background-color: #232323;
+  transform: translateY(-3px);
+  transition: all 0.3s;
+}
+
+
+* {
+  text-align: left;
+}

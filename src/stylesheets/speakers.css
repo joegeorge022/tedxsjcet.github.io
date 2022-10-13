@@ -38,11 +38,18 @@
 .speakers .card {
   margin-top: 50px;
   border: none;
+  border-radius: 30px;
+}
+.card:hover {
+  transition: all 0.3s;
+  transform: translateY(-3px);
+  
 }
 
 .speakers .card h1 {
   padding-top: 10px;
-  font-size: 30px;
+  margin-top: 10px;
+  font-size: 23px;
   letter-spacing: 0px;
 }
 
