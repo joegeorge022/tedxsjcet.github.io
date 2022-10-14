@@ -197,3 +197,11 @@ h5 {
   color: rgb(220, 220, 220) !important;
   text-align: left !important;
 }
+
+.bio-link {
+  color: #ff4646;
+}
+
+.bio-link:hover {
+  color: #dd4b39;
+}
