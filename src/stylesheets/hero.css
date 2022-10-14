@@ -4,6 +4,15 @@
   font-family: "Inter", sans-serif;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: red;
+}
+
+::selection {
+  color: red;
+}
+
 .ted-link {
   color: black;
   text-transform: uppercase;
