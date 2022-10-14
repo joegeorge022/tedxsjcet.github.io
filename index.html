@@ -42,10 +42,20 @@
     <link rel="stylesheet" href="src/stylesheets/theme.css" />
     <link rel="stylesheet" href="src/stylesheets/footer.css" />
     <link rel="stylesheet" href="src/stylesheets/responsive.css" />
+    <link rel="stylesheet" href="src/stylesheets/preloader.css">
     <title>TEDxSJCET</title>
   </head>
 
-  <body>
+  <body onload="display()">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <section class="preloader">
+      <lottie-player src="src/lottie/lf30_editor_dngiyfor.json" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+    </section>
+
+    <section class="main d-none">
+
+
     <section id="hero" class="hero">
       <div class="hero" style="width: 100px; height: 200px"></div>
       <!-- Navbar -->
@@ -137,11 +147,6 @@
         <a href="https://ted.com" class="ted-link">More about TED &nbsp; <i class="fas fa-arrow-right"></i> </a>
     </div>
     </div>
-    
-
-
-
-
     
     <section class="speakers" id="speakers">
       <div class="container">
@@ -646,6 +651,8 @@
       </div>
     </footer>
 
+    </section>
+
     <!-- Bootstrap Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -657,5 +664,6 @@
     <script src="src/scripts/speakers.js"></script>
     <script src="src/scripts/theme.js"></script>
     <script src="src/scripts/onscroll.js"></script>
+    <script src="src/scripts/preloader.js"></script>
   </body>
 </html>
