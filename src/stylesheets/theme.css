@@ -47,7 +47,7 @@
     text-align: center;
   }
   .overlay h2 {
-    max-width: 40em;
+    max-width: 60vw;
     font-size: 28px;
     font-weight: 700;
     color: #fff;
@@ -57,7 +57,7 @@
   }
   .overlay p {
     padding-top: 1em;
-    max-width: 40em;
+    
     margin: 0 auto;
   }
   .overlay a.btn {

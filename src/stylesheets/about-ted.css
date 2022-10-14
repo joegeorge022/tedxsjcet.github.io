@@ -2,6 +2,7 @@
   font-weight: 700 !important;
   font-size: 16px !important;
   color: #ff4646 !important;
+
   letter-spacing: 3px !important;
   
 }
@@ -145,5 +146,28 @@
 
   .about-ted .card-link {
     font-size: 90%;
+  }
+}
+
+
+
+
+.glimpse-text {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  /* max-width: 100px; */
+}
+
+@media screen and (max-width: 500px) {
+  .glimpse-text {
+    font-size: 16px !important;
+    /* text-align: justify ; */
+  
+  }
+}
+
+@media screen and (min-width: 700px ) {
+  .glimpse-text {
+    max-width: 50vw;
   }
 }
