@@ -54,7 +54,7 @@ nav {
 }
 
 .desktop-nav a:hover {
-  color: black;
+  color: #ff4646;
 }
 
 @media screen and (min-width: 920px) {

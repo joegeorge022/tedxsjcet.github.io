@@ -4,7 +4,6 @@
   color: #ff4646 !important;
 
   letter-spacing: 3px !important;
-  
 }
 
 .about-ted {
@@ -60,6 +59,10 @@
   padding-left: 10px;
   padding-bottom: 5px;
   width: 7%;
+}
+
+.ted-link {
+  transition: 0.9s;
 }
 
 .about-ted .card-link:hover {
@@ -149,9 +152,6 @@
   }
 }
 
-
-
-
 .glimpse-text {
   font-size: 20px;
   letter-spacing: -0.5px;
@@ -162,11 +162,10 @@
   .glimpse-text {
     font-size: 16px !important;
     /* text-align: justify ; */
-  
   }
 }
 
-@media screen and (min-width: 700px ) {
+@media screen and (min-width: 700px) {
   .glimpse-text {
     max-width: 50vw;
   }

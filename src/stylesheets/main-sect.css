@@ -1,10 +1,7 @@
 .main-sect {
   position: absolute;
   top: 28%;
-  
 }
-
-
 
 .main-sect h1 {
   transition: 0.9s;
@@ -30,7 +27,7 @@
 
 .main-sect .get-btn {
   margin-top: 30px;
-  background-color: #ff2b06;
+  background-color: #ff4646;
   color: white;
   font-weight: bold;
   letter-spacing: -1px;
@@ -73,10 +70,9 @@
   padding-bottom: 5%;
 }
 
-
 .down-arrow {
   position: absolute;
-  top:35vh;
+  top: 35vh;
   left: 50vw;
   transform: translate(-50%);
   animation: arrowJump 5s infinite;
@@ -92,9 +88,7 @@
   100% {
     transform: translateY(10px);
   }
-  
 }
-
 
 .main-sect .right-arrow {
   padding-left: 10px;
