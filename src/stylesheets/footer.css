@@ -1,6 +1,6 @@
 .footer-section ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .footer-section {
   background: #151414;
@@ -45,12 +45,12 @@
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  max-width: 200px;
 }
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #7e7e7e;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -74,14 +74,14 @@
   line-height: 38px;
   border-radius: 50%;
 }
-.facebook-bg{
-  background: #3B5998;
+.facebook-bg {
+  background: #3b5998;
 }
-.twitter-bg{
-  background: #55ACEE;
+.twitter-bg {
+  background: #55acee;
 }
-.google-bg{
-  background: #DD4B39;
+.google-bg {
+  background: #dd4b39;
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -105,7 +105,7 @@
   width: 50%;
   margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
+.footer-widget ul li a:hover {
   color: red;
 }
 .footer-widget ul li a {
@@ -119,24 +119,24 @@
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2E2E2E;
-  border: 1px solid #2E2E2E;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
   color: #fff;
 }
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: red;
-    padding: 13px 20px;
-    border: 1px solid red;
-    top: 0;
+  position: absolute;
+  right: 0;
+  background: red;
+  padding: 13px 20px;
+  border: 1px solid red;
+  top: 0;
 }
 .subscribe-form button i {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
 }
-.copyright-area{
+.copyright-area {
   background: #202020;
   padding: 25px 0;
 }
@@ -145,14 +145,14 @@
   font-size: 14px;
   color: #878787;
 }
-.copyright-text p a{
+.copyright-text p a {
   color: red;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
-.footer-menu li:hover a{
+.footer-menu li:hover a {
   color: red;
 }
 .footer-menu li a {
@@ -161,19 +161,17 @@
 }
 
 .footer-credits {
-    text-align: center;
-    color: #ccc;
+  text-align: center;
+  color: #ccc;
 }
 
-
 .footer-section a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 .contact-icon {
   height: 50px;
   width: 50px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,9 +179,8 @@
 .single-cta {
   background-color: rgb(24, 24, 24);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 0px;
   display: flex;
-  
 }
 
 .single-cta:hover {
@@ -192,13 +189,11 @@
   transition: all 0.3s;
 }
 
-
 * {
   text-align: left;
 }
 
-
- h5 {
+h5 {
   color: rgb(220, 220, 220) !important;
   text-align: left !important;
 }

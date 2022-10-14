@@ -15,6 +15,7 @@ nav {
     #11030300 100%
   );
 }
+
 /* .nav-container {
   background: rgba(0, 0, 0, 0.25);
 
@@ -34,7 +35,7 @@ nav {
 .desktop-nav ul {
   position: absolute;
   top: 40px;
-  right: 160px;
+  right: 40px;
   display: flex;
   list-style: none;
 }
@@ -73,7 +74,7 @@ nav {
     top: -100%;
     list-style: none;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     padding-top: 30%;
     padding-left: 0%;
     display: flex;
@@ -85,6 +86,12 @@ nav {
     border: 1px solid rgba(0, 0, 0, 0.3);
     align-items: center;
     z-index: 1;
+  }
+
+  @media screen and (max-width: 500px) {
+    .nav-ul-mob {
+      height: 45vh;
+    }
   }
 
   .nav-ul-mob-toggle {
