@@ -46,8 +46,12 @@
 }
 .card:hover {
   transition: all 0.3s;
-  transform: translateY(-3px);
+  transform: translateY(-7px);
   
+}
+
+.card:hover .card img {
+  filter: blur(20px);
 }
 
 .speakers .card h1 {
@@ -123,7 +127,7 @@
   }
 
   .speakers h5 {
-    font-size: 100%;
+    font-size: 20px;
   }
 }
 
@@ -145,13 +149,21 @@
 } */
 
 .speakers {
-  background-image: linear-gradient(235deg, #a10000 5%, black, black);
-  background: radial-gradient(circle at 20% 25%, #5e0a0a 0, #110303 25%);
-}
+  /* background-image: linear-gradient(235deg, #940000 5%, black, black);
+   */
 
-.speakers::after {
-  background: radial-gradient(circle at -20% -25%, #5e0a0a 0, #110303 20%);
-}
+
+   background: radial-gradient(circle at 25% 25%, #590000 0, #110303 25%);
+  /* background: radial-gradient( circle, #470000, #110303); */
+ }
+
+
+ @media screen and (max-width: 640px) {
+  .speakers {
+    background: radial-gradient(circle at 10% 10%, #5c0000 0, #110303 12%);
+
+  }
+ }
 
 .card-img-top {
   transition: 0.9s;

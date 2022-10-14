@@ -60,10 +60,17 @@
 }
 
 #hero {
-  background-image: url("/src/images/background-img.jpg");
+  background:  linear-gradient(to right, rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.533)), url("/src/images/bgee.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 200vh;
+  /* background-size: 600% 100%; */
+  animation: gradient 200s linear infinite;
+  
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
 }
 
 @media screen and (max-width: 2560px) and (min-width: 1920px) {
@@ -72,7 +79,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
   #hero {
     background-image: none;
     background: rgb(59, 38, 38);
@@ -93,7 +100,7 @@
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b2626",endColorstr="#bb2d2d",GradientType=1);
   }
-}
+} */
 
 @media screen and (max-width: 850px) {
   #hero {

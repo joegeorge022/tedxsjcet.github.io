@@ -1,7 +1,10 @@
 .main-sect {
   position: absolute;
-  top: 40%;
+  top: 28%;
+  
 }
+
+
 
 .main-sect h1 {
   transition: 0.9s;
@@ -69,6 +72,29 @@
   padding-top: 20%;
   padding-bottom: 5%;
 }
+
+
+.down-arrow {
+  position: absolute;
+  top:35vh;
+  left: 50vw;
+  transform: translate(-50%);
+  animation: arrowJump 5s infinite;
+}
+
+@keyframes arrowJump {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+  
+}
+
 
 .main-sect .right-arrow {
   padding-left: 10px;
