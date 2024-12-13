@@ -22,6 +22,9 @@ jobs:
         - name: Install dependencies with Bun
           run: ~/.bun/bin/bun install
 
+        - name: Clean assets
+          run: rm -rf assets
+
         - name: Run build
           run: ~/.bun/bin/bun run build
 
