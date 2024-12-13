@@ -19,11 +19,14 @@ jobs:
           run: |
             curl -fsSL https://bun.sh/install | bash
 
+        - name: Remember previous artifacts
+          run: export ASSETS=$(ls)
+
         - name: Install dependencies with Bun
           run: ~/.bun/bin/bun install
 
         - name: Clean assets
-          run: rm -rf assets
+          run: rm -f $(comm -12 <(ls | sort) <(echo $ASSETS | sort))
 
         - name: Run build
           run: ~/.bun/bin/bun run build
