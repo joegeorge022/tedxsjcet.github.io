@@ -1,3 +1,4 @@
+name: autobuild
 on:
     push:
         branches:
@@ -20,10 +21,10 @@ jobs:
             echo "export PATH=\"$HOME/.bun/bin:$PATH\"" >> $GITHUB_ENV
 
         - name: Install dependencies with Bun
-          run: bun install
+          run: ~/.bun/bin/bun install
 
         - name: Run build
-          run: bun run build
+          run: ~/.bun/bin/bun run build
 
         - name: Commit and push changes
           env:
