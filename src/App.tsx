@@ -1,6 +1,7 @@
 import type { Component } from 'solid-js';
 import { onMount } from 'solid-js';
 import gsap from 'gsap';
+import NavBar from './components/NavBar';
 
 import hero1 from "./assets/hero1.png"
 import hero2 from "./assets/hero2.webp"
@@ -38,8 +39,10 @@ const App: Component = () => {
     });
 
     return (
-        <div class='flex w-full h-screen bg-black overflow-auto text-white'>
+        <div class='flex flex-col w-full min-h-screen bg-black overflow-auto text-white relative scroll-smooth'>
+            <NavBar/>
             {/* Hero Section */}
+            <div id='home'></div>
             <div class='flex flex-col w-full h-screen md:flex-row-reverse'>
                 <div class='relative h-1/2 md:h-full md:w-1/2 flex bg-slate-300'>
                     <img src={hero5} class='hero5 absolute w-full h-full object-cover' />
@@ -77,6 +80,10 @@ const App: Component = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id='about'></div>
+            <div class='flex flex-col w-full h-screen'>
+
             </div>
         </div>
     );
