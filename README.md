@@ -2,7 +2,7 @@
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely removed once you clone a template, as it primarily manages dependencies for the original template. However, if you plan to update or maintain dependencies in the future, consider keeping it.
 
 ```bash
 $ bun install
