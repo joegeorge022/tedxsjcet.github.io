@@ -1,3 +1,5 @@
+import path from "node:path"
+
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 
@@ -10,4 +12,9 @@ export default defineConfig({
     target: 'esnext',
     outDir: "dist"
   },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src")
+    }
+  }
 });

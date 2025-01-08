@@ -1,21 +1,22 @@
 import type { Component } from 'solid-js';
 import { onMount } from 'solid-js';
 import gsap from 'gsap';
-import NavBar from './components/NavBar';
+import NavBar from '@/components/NavBar';
 
-import hero1 from "./assets/hero1.png"
-import hero2 from "./assets/hero2.webp"
-import hero7 from "./assets/hero7.webp"
+import hero1 from "@/assets/hero1.png"
+import hero2 from "@/assets/hero2.webp"
+import hero7 from "@/assets/hero7.webp"
 
-import hero3 from "./assets/hero3.webp"
-import hero4 from "./assets/hero4.webp"
-import hero8 from "./assets/hero8.webp"
+import hero3 from "@/assets/hero3.webp"
+import hero4 from "@/assets/hero4.webp"
+import hero8 from "@/assets/hero8.webp"
 
-import hero5 from "./assets/hero5.webp"
-import hero9 from "./assets/hero9.webp"
-import hero10 from "./assets/hero10.webp"
+import hero5 from "@/assets/hero5.webp"
+import hero9 from "@/assets/hero9.webp"
+import hero10 from "@/assets/hero10.webp"
 
-import ocean from "./assets/ocean.webp"
+import ocean from "@/assets/ocean.webp"
+import { Button } from './components/ui/button';
 
 const App: Component = () => {
 
@@ -83,7 +84,6 @@ const App: Component = () => {
             </div>
             <div id='about'></div>
             <div class='flex flex-col w-full h-screen'>
-
             </div>
         </div>
     );
